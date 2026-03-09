@@ -4,7 +4,7 @@ AI-powered browser testing as an MCP tool. Give it a URL and instructions — it
 
 ## What it does
 
-Aiqaramba runs AI agents in real browsers (Chrome, Firefox, Edge) to test web applications from an end-user perspective. No selectors, no scripts — describe what to test in plain language.
+Aiqaramba runs AI agents in real browsers (Chrome, Firefox) to test web applications from an end-user perspective. No selectors, no scripts — describe what to test in plain language.
 
 ### Tools
 
