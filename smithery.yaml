@@ -1,0 +1,30 @@
+name: aiqaramba
+description: AI-powered browser testing. Give it a URL and instructions — it opens a real browser, navigates pages, fills forms, clicks buttons, and reports what it finds. No scripts, no selectors.
+icon: https://aiqaramba.com/og-image.png
+sourceUrl: https://github.com/alex-ai-eu/aiqaramba-mcp
+homepage: https://aiqaramba.com
+license: Proprietary
+
+auth:
+  type: bearer
+  description: API key from app.aiqaramba.com
+
+remote:
+  type: streamable-http
+  url: https://mcp.aiqaramba.com/mcp
+
+categories:
+  - testing
+  - browser
+  - qa
+  - developer-tools
+
+keywords:
+  - browser testing
+  - end-to-end testing
+  - qa automation
+  - ai testing
+  - web testing
+  - selenium
+  - real browser
+  - mcp
