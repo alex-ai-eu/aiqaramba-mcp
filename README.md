@@ -28,8 +28,6 @@ The agent opens a real browser, executes the flow, takes screenshots at each ste
 
 ## Setup
 
-### Option 1: Remote (zero install, recommended)
-
 Connect directly to the hosted MCP endpoint. Nothing to download.
 
 **Claude Code / Cursor / VS Code:**
@@ -48,30 +46,11 @@ Connect directly to the hosted MCP endpoint. Nothing to download.
 }
 ```
 
-### Option 2: Local (stdio)
-
-Run the MCP server locally. Download the binary for your OS from [releases](https://github.com/alex-ai-eu/aiqaramba-mcp/releases) or build from source.
-
-```json
-{
-  "mcpServers": {
-    "aiqaramba": {
-      "command": "/path/to/aiqaramba-mcp",
-      "env": {
-        "AIQARAMBA_API_KEY": "YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
 ## Configuration
 
 | Environment variable | Default | Description |
 |---------------------|---------|-------------|
 | `AIQARAMBA_API_KEY` | (required) | Your API key from [app.aiqaramba.com](https://app.aiqaramba.com) |
-| `AIQARAMBA_API_URL` | `https://app.aiqaramba.com` | API base URL |
-| `AIQARAMBA_MCP_PORT` | `3100` | HTTP port (http transport only) |
 
 ## Get an API key
 
