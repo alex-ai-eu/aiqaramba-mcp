@@ -2,6 +2,10 @@
 
 AI-powered browser testing as an MCP tool. Give it a URL and instructions — it opens a real browser, navigates pages, fills forms, clicks buttons, and reports what it finds.
 
+<a href="https://glama.ai/mcp/servers/alex-ai-eu/aiqaramba-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/alex-ai-eu/aiqaramba-mcp/badge" alt="Aiqaramba MCP server" />
+</a>
+
 ## What it does
 
 Aiqaramba runs AI agents in real browsers (Chrome, Firefox) to test web applications from an end-user perspective. No selectors, no scripts — describe what to test in plain language.
